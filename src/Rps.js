@@ -13,10 +13,10 @@ function Scissors(){
 Rules.prototype.versus = function(choice1, choice2){
 	if(choice1 === choice2)
 		return "Draw";
-	else if (choice1 === "Rock" && choice2 === "Scissors")
+	else if ((choice1 === rock.type && choice2 === scissors.type) || (choice1 === scissors.type && choice2 === rock.type))
 		return "Rock wins";
-	else if (choice1 === "Paper" && choice2 === "Rock")
+	else if ((choice1 === paper.type && choice2 === rock.type) || (choice1 === rock.type && choice2 === paper.type))
 		return "Paper wins"
-	else (choice1 === "Scissors" && choice2 === "Paper")
+	else ((choice1 === scissors.type && choice2 === paper.type) || (choice1 === scissors.type && choice2 === paper.type))
 		return "Scissors wins" 
 };

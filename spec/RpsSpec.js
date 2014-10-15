@@ -29,12 +29,11 @@ describe("RockPaperScissors", function(){
 		rules = new Rules
 
 		it("When same gestures drawn it is a draw", function() {
-			expect(rules.versus("Rock", "Rock")).toEqual("Draw");
+			expect(rules.versus(rock.type, rock.type)).toEqual("Draw");
 		});
 
 		it("Rock beats scissors", function(){
-			expect(rules.versus("Rock", "Scissors")).toEqual("Rock wins");
-
+			expect(rules.versus(scissors.type, rock.type)).toEqual("Rock wins");
 		});
 
 		it("Paper beats rock", function(){
