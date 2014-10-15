@@ -1,0 +1,1 @@
+This was a project set by Makers Academy in week 4 in order to practise our use of JavaScript through completing a program for the game Rock, Paper, Scissors.
