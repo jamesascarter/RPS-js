@@ -1,0 +1,25 @@
+.weapon {
+height: 11em;
+width: 17em;
+padding-top:5em;
+padding-left: 5em;
+
+
+}
+
+h1{
+color: 23B293;
+size: 16em;
+text-align: center;
+font-family: 'Changa One', cursive;
+
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+	color: 23B293;
+}
+
+body{
+	background-color:B22E00;
+}

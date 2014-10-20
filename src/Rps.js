@@ -7,7 +7,7 @@ function Paper() {
 	this.type = "Paper";
 };
 function Scissors(){
-	this.type = "Scissors"
+	this.type = "Scissors";
 };
 
 Rules.prototype.versus = function(choice1, choice2){
